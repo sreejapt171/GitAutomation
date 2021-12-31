@@ -26,7 +26,7 @@ public class windownHandlersTest {
 		driver.switchTo().window(childid);
 	    String mesg=driver.findElement(By.xpath("//div[@class='col-md-8']/p[2]")).getText().split("at")[1].trim().split(" ")[0];
 	    driver.switchTo().window(parentid);
-	    driver.findElement(By.id("username")).sendKeys(mesg);
+	 //   driver.findElement(By.id("username")).sendKeys(mesg);
         driver.quit();	    
 	}
 
