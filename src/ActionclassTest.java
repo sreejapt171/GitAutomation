@@ -22,7 +22,7 @@ public class ActionclassTest {
 		Actions a=new Actions(driver);
 		
 		//type hello in search field with press of shift key  and select the input with double click
-		a.moveToElement(srch).click().keyDown(Keys.SHIFT).sendKeys("hello").doubleClick().build().perform();
+		a.moveToElement(srch).click().keyDown(Keys.SHIFT).sendKeys("hellooooo").doubleClick().build().perform();
 		
 		
 		//move mouse oven an element elm
